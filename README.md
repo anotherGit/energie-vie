@@ -3,6 +3,7 @@
 ## Requirements
 
 - Node.js >= 20
+- NestJS >= 10
 - Docker >= 25
 - Docker-compose >= 2
 - Yarn >= 1.22
