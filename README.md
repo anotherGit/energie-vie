@@ -41,3 +41,32 @@ Mock User Credentials  :
 - expert : expert@gmail.com | azerty
 - admin : admin@gmail.com | azerty
 
+## DB Schema
+
+```
+[SavedSearches]
+	|
+    (n)
+    |
+    (1)
+    |
+[Users] -- (1) -- (n) -- [UserRoles] -- (n) -- (1) -- [Roles]
+    |
+    (1)
+    |
+    (n)
+    |
+[Ratings]
+    |
+    (n)
+    |
+    (1)
+    |
+[Bottles] -- (1) -- (n) -- [BottleGrapeVarieties] -- (n) -- (1) -- [GrapeVarieties]
+	|
+    (1)
+    |
+    (n)
+    |
+[Prices]
+```
