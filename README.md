@@ -33,5 +33,11 @@ $ yarn run start
 
 ## Explore API routes with Swagger
 
-http://localhost:3000/api
+Url : http://localhost:3000/api
+
+Mock User Credentials  :
+
+- user : piere@gmail.com | azerty
+- expert : expert@gmail.com | azerty
+- admin : admin@gmail.com | azerty
 
